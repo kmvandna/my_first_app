@@ -31,3 +31,8 @@
 
 en:
   hello: "Hello world"
+  posts:
+    like_toggle:
+      like: "This article liked succfully"
+      dislike: "This article disliked succfully"
+  
