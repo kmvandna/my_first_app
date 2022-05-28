@@ -7,6 +7,5 @@
   <%= link_to "Back to posts", posts_path %>
 
   <%= button_to "Destroy this post", @post, method: :delete %>
-  <li><%= like_toggle_link(@post) %> <span>(<%= @post.likes.count %>)</span></li>
-
+  <%= like_toggle_link(@article) %> <span>(<%= @article.likes.count %>)
 </div>
